@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import {Http} from '@angular/http';
 import {DirectoryComponent} from "./directory/directory.component";
 import { Observable } from 'rxjs/observable';
-import 'rxjs/add/operator/map'
+import 'rxjs/add/operator/map';
 
 const API_URL = "https://boredboard-2519a.firebaseio.com/";
 

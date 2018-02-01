@@ -2,8 +2,6 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import {ApiService} from "../api.service";
 import {Http} from '@angular/http';
 
-import 'rxjs/add/operator/map'
-
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -11,13 +9,7 @@ import 'rxjs/add/operator/map'
   providers:[ApiService]
 })
 export class HomeComponent implements OnInit {
-	// homeTitle = "Welcome!";
-	// myString = "Is this a string?";
-	// myBoolean = true;
-	// cup = {
-	// 	size:"C",
-	// 	shape:"Round"
-	// };
+
 	tests = [];
 
 	@Input() favorite;
