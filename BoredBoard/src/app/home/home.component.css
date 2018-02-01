@@ -1,0 +1,46 @@
+.summaryContainer{
+	box-sizing: border-box;
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+	background:rgb(140,122,92);
+	color:rgb(10,9,7);
+	margin-top: 0;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 2px 2px 2px 3px rgb(10,9,7);
+}
+h2{
+	margin:0;
+}
+.post{
+	width:95%;
+	box-sizing: border-box;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 2px 2px 2px 2px rgb(10,9,7);
+}
+.post p{
+	font-size: 17px;
+	font-weight: bold;
+}
+.review{
+	width:33%;
+	margin:0;
+	display:inline-block;
+	background:rgb(55,71,92);
+	color:rgb(189,172,144);
+	padding:10px;
+}
+.content{
+	width:66.3%;
+	margin:0;
+	display:inline-block;
+	background:rgb(189,172,144);
+	color:rgb(55,71,92);
+	padding:10px;
+}

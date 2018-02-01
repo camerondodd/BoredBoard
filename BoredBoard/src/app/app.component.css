@@ -1,0 +1,51 @@
+header{
+	background-image:url('../board.jpeg');
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	margin:0;
+	padding-top: 50px;
+	height:200px;
+	box-sizing: border-box;
+	position:relative;
+	top:0;
+	width:100%;
+	box-shadow: 0px 0px 0px 2px rgb(10,9,7)
+;
+}
+h1{
+	color:rgb(140,122,92);
+	text-shadow: 2px 1px rgb(10,9,7);
+	font-size:70px;
+	text-align: center;
+	margin:0;
+}
+
+nav{
+	box-sizing: border-box;
+	text-align: center;
+	background:rgb(55,71,92);
+	position: absolute;
+	bottom:0;
+	width:100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+nav a{
+	color:rgb(189,172,144);
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+nav a:hover{
+	color:rgb(62,54,43);
+	cursor: pointer;
+}
+app-home,app-root{
+	margin:0;
+}

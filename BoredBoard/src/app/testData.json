@@ -1,0 +1,14 @@
+[
+	{
+		"test":"1",
+		"color":"blue"
+	},
+	{
+		"test":"2",
+		"color":"red"
+	},
+	{
+		"test":"3",
+		"color":"yellow"
+	}
+]

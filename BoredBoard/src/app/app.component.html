@@ -1,0 +1,16 @@
+<header>
+	<h1>
+	  {{title}}
+	</h1>
+	<nav>
+		<a routerLink="" routerLinkActive="active">Home</a>
+		<a routerLink="directory" routerLinkActive="active">Directory</a>
+	</nav>
+</header>
+<section class="main">
+	<h2>
+		{{favorite}}
+	</h2>
+	<!-- <app-home [favorite]="favorite" (onYell)="yell($event)">Wazzzzup?</app-home>	 -->
+	<router-outlet></router-outlet>
+</section>
