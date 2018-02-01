@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import {ApiService} from "../api.service";
 import {Http} from '@angular/http';
-// import { Observable } from 'rxjs/observable';
+
 import 'rxjs/add/operator/map'
 
 @Component({
